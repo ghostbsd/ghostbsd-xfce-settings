@@ -1,0 +1,13 @@
+show_frame=false
+fg_set=false
+bg_set=false
+timezone=
+width_set=false
+height_set=false
+data0=%X
+font0=Sans 9
+data1=%x
+font1=Sans 7
+tooltip=%A %d %B %Y/%V
+hib_timing=false
+
