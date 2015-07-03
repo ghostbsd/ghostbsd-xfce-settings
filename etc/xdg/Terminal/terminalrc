@@ -85,6 +85,6 @@ TitleMode=TERMINAL_TITLE_APPEND
 Term=xterm
 VteWorkaroundTitleBug=TRUE
 WordChars=-A-Za-z0-9,./?%&#:_~
-FontName=Droid Sans Mono 10
+FontName=MonoSpace 10
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.900000
