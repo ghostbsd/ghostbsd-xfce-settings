@@ -36,7 +36,7 @@
     <property name="Engine" type="string" value="balou"/>
     <property name="engines" type="empty">
       <property name="balou" type="empty">
-        <property name="Theme" type="string" value="@GTK_THEME@"/>
+        <property name="Theme" type="string" value="Ghomix"/>
       </property>
     </property>
   </property>
