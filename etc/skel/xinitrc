@@ -1,1 +1,2 @@
-exec xfce
+exec xfce4-session
+
