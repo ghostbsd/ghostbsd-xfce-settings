@@ -26,7 +26,7 @@
       </property>
       <property name="mode" type="uint" value="0"/>
       <property name="size" type="uint" value="30"/>
-      <property name="background-alpha" type="uint" value="80"/>
+      <property name="background-alpha" type="uint" value="100"/>
     </property>
   </property>
   <property name="plugins" type="empty">
