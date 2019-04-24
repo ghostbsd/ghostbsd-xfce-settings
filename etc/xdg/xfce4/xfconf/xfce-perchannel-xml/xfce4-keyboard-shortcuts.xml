@@ -28,6 +28,7 @@
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="F12" type="string" value="xfce4-terminal --drop-down --hide-menubar"/>
+      <property name="&lt;Super" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="override" type="bool" value="true"/>
     </property>
   </property>
