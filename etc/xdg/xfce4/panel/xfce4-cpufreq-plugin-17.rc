@@ -1,8 +1,0 @@
-timeout=1
-show_cpu=0
-show_frame=true
-show_icon=true
-show_label_freq=true
-show_label_governor=true
-show_warning=false
-
