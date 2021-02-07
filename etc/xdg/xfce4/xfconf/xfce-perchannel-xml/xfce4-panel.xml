@@ -4,8 +4,9 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" vakue="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=2360;y=1349"/>
+      <property name="position" type="string" value="p=8;x=683;y=754"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="16"/>
