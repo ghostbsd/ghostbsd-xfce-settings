@@ -9,6 +9,11 @@
           <property name="image-style" type="int" value="3"/>
           <property name="image-path" type="string" value="/usr/local/share/backgrounds/ghostbsd/Arizona_Desert_Monument.jpg"/>
       </property>
+         <property name="workspace1" type="empty">
+        <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="image-path" type="string" value="/usr/local/share/backgrounds/ghostbsd/Arizona_Desert_Monument.jpg"/>
+      </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
