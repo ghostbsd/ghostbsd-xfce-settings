@@ -3,15 +3,12 @@
 <channel name="xfce4-panel" version="1.0">
   <property name="panels" type="array">
     <value type="int" value="0"/>
-    <value type="int" value="1"/>
-    </property>
-    </property>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=3;x=1335;y=376"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="autohide-behavior" type="uint" value="1"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="length" type="uint" value="50"/>
+      <property name="length" type="uint" value="100"/>
       <property name="plugin-ids" type="array">
       </property>
       <property name="background-style" type="uint" value="0"/>
@@ -55,8 +52,8 @@
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
-        <property name="background-color" type="string" value="#ea72ffffbb4f"/>
-        <property name="font-description" type="string" value="empty"/>
+        <property name="background-color" type="array">
+        <property name="font-description" type="string" value="Source Sans Pro 13"/>
       </property>
       <property name="new-window" type="empty">
         <property name="width" type="int" value="270"/>
