@@ -4,36 +4,9 @@
   <property name="panels" type="array">
     <value type="int" value="0"/>
     <value type="int" value="1"/>
-    <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=8;x=680;y=753"/>
-      <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
-        <value type="int" value="2"/>
-        <value type="int" value="3"/>
-        <value type="int" value="4"/>
-        <value type="int" value="6"/>
-        <value type="int" value="8"/>
-      </property>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="background-alpha" type="uint" value="100"/>
-      <property name="size" type="uint" value="27"/>
-      <property name="length-adjust" type="bool" value="true"/>
-      <property name="span-monitors" type="bool" value="false"/>
-      <property name="enter-opacity" type="uint" value="100"/>
-      <property name="leave-opacity" type="uint" value="100"/>
-      <property name="mode" type="uint" value="0"/>
-      <property name="autohide-behavior" type="uint" value="1"/>
-      <property name="disable-struts" type="bool" value="false"/>
-      <property name="background-color" type="array">
-        <value type="uint" value="27482"/>
-        <value type="uint" value="27482"/>
-        <value type="uint" value="27482"/>
-        <value type="uint" value="65535"/>
-      </property>
     </property>
-    <property name="panel-1" type="empty">
+    </property>
+    <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=3;x=1335;y=376"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="autohide-behavior" type="uint" value="1"/>
@@ -83,7 +56,7 @@
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="background-color" type="string" value="#ea72ffffbb4f"/>
-        <property name="font-description" type="string" value="Source Sans Pro 13"/>
+        <property name="font-description" type="string" value="empty"/>
       </property>
       <property name="new-window" type="empty">
         <property name="width" type="int" value="270"/>
