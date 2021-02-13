@@ -29,7 +29,6 @@
       <property name="mode" type="uint" value="0"/>
       <property name="output-name" type="string" value="Primary"/>
     </property>
-  </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu"/>
     <property name="plugin-2" type="string" value="tasklist">
