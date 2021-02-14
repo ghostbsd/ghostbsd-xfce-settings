@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
-  <property name="panels" type="array">
-    <value type="int" value="1"/>
+  <property name="panels" type="empty">
     <property name="panel-0" type="empty">
       <property name="position" type="empty"/>
       <property name="length" type="empty"/>
@@ -21,55 +20,57 @@
       <property name="background-color" type="empty"/>
     </property>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=683;y=752"/>
+      <property name="position" type="empty"/>
       <property name="length-adjust" type="empty"/>
-      <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="length" type="uint" value="100"/>
+      <property name="autohide-behavior" type="empty"/>
+      <property name="position-locked" type="empty"/>
+      <property name="length" type="empty"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
+        <value type="int" value="4"/>
+        <value type="int" value="11"/>
         <value type="int" value="2"/>
         <value type="int" value="5"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
+        <value type="int" value="3"/>
         <value type="int" value="7"/>
       </property>
       <property name="background-style" type="empty"/>
       <property name="background-color" type="empty"/>
-      <property name="mode" type="uint" value="0"/>
+      <property name="mode" type="empty"/>
       <property name="background-alpha" type="empty"/>
       <property name="leave-opacity" type="empty"/>
       <property name="icon-size" type="empty"/>
-      <property name="size" type="uint" value="30"/>
+      <property name="size" type="empty"/>
       <property name="output-name" type="empty"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="whiskermenu"/>
-    <property name="plugin-2" type="string" value="separator">
+    <property name="plugin-1" type="empty"/>
+    <property name="plugin-2" type="empty">
       <property name="flat-buttons" type="empty"/>
       <property name="grouping" type="empty"/>
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
     </property>
-    <property name="plugin-3" type="empty">
+    <property name="plugin-3" type="string" value="systray">
       <property name="style" type="empty"/>
       <property name="expand" type="empty"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="update-station"/>
+        <value type="string" value="networkmgr"/>
+      </property>
+      <property name="known-items" type="array">
+      </property>
     </property>
-    <property name="plugin-4" type="empty">
+    <property name="plugin-4" type="string" value="separator">
       <property name="show-frame" type="empty"/>
       <property name="size-max" type="empty"/>
       <property name="names-visible" type="empty"/>
       <property name="names-hidden" type="empty"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="thunar"/>
-        <value type="string" value="networkmgr"/>
-        <value type="string" value="update-station"/>
-      </property>
-    </property>
-    <property name="plugin-6" type="empty">
       <property name="known-legacy-items" type="empty"/>
-      <property name="known-items" type="empty"/>
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
@@ -81,15 +82,11 @@
         <property name="height" type="empty"/>
       </property>
     </property>
-    <property name="plugin-8" type="empty">
-      <property name="appearance" type="empty"/>
-      <property name="items" type="empty"/>
-    </property>
-    <property name="plugin-5" type="string" value="pager">
+    <property name="plugin-5" type="empty">
       <property name="style" type="empty"/>
     </property>
-    <property name="plugin-10" type="string" value="notification-plugin"/>
-    <property name="plugin-11" type="empty">
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="string" value="tasklist">
       <property name="style" type="empty"/>
     </property>
     <property name="plugin-12" type="empty">
@@ -99,24 +96,11 @@
       <property name="style" type="empty"/>
     </property>
     <property name="plugin-14" type="empty"/>
-    <property name="plugin-7" type="string" value="actions">
-      <property name="appearance" type="uint" value="0"/>
-      <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="+separator"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-hybrid-sleep"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-shutdown"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
+    <property name="plugin-7" type="empty">
+      <property name="appearance" type="empty"/>
+      <property name="items" type="empty"/>
     </property>
-    <property name="plugin-9" type="string" value="datetime"/>
+    <property name="plugin-9" type="empty"/>
   </property>
-  <property name="configver" type="int" value="2"/>
+  <property name="configver" type="empty"/>
 </channel>
