@@ -29,8 +29,6 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
         <value type="int" value="2"/>
-        <value type="int" value="3"/>
-        <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -47,10 +45,12 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="empty"/>
-    <property name="plugin-2" type="empty">
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-2" type="string" value="separator">
       <property name="flat-buttons" type="empty"/>
       <property name="grouping" type="empty"/>
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-3" type="empty">
       <property name="style" type="empty"/>
@@ -62,34 +62,14 @@
       <property name="names-visible" type="empty"/>
       <property name="names-hidden" type="empty"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
         <value type="string" value="networkmgr"/>
         <value type="string" value="update-station"/>
       </property>
     </property>
     <property name="plugin-6" type="empty">
-      <property name="blacklist" type="empty"/>
-      <property name="known-indicators" type="empty"/>
-      <property name="single-row" type="empty"/>
-      <property name="whitelist" type="empty"/>
-      <property name="show-frame" type="empty"/>
-      <property name="square-icons" type="empty"/>
-      <property name="names-ordered" type="empty"/>
-      <property name="plugin-8" type="empty">
-        <property name="mode" type="empty"/>
-      </property>
-      <property name="plugin-9" type="empty">
-        <property name="style" type="empty"/>
-      </property>
-      <property name="plugin-10" type="empty"/>
-      <property name="plugin-7" type="empty"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="networkmgr"/>
-        <value type="string" value="update-station"/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="vlc"/>
-        <value type="string" value="TelegramDesktop"/>
-      </property>
+      <property name="known-legacy-items" type="empty"/>
+      <property name="known-items" type="empty"/>
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
