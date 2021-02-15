@@ -28,6 +28,8 @@
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="background-color" type="array">
+      </property>
+      <property name="dark-mode" type="bool" value="true"/>
         <value type="uint" value="27482"/>
         <value type="uint" value="27482"/>
         <value type="uint" value="27482"/>
