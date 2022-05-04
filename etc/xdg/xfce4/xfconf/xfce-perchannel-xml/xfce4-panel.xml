@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
-  <property name="panels" type="array">
+  <property name="panels" type="empty">
     <value type="int" value="0"/>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=8;x=680;y=753"/>
@@ -67,7 +67,7 @@
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
-        <property name="background-color" type="string" value="#ea72ffffbb4f"/>
+        <property name="background-color" type="string" value="empty"/>
         <property name="font-description" type="string" value="Source Sans Pro 13"/>
       </property>
       <property name="new-window" type="empty">
