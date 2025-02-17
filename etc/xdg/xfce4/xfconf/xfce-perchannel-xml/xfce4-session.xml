@@ -7,7 +7,7 @@
   </property>
   <property name="sessions" type="empty">
     <property name="Failsafe" type="empty">
-      <property name="IsFailsafe" type="empty"/>
+      <property name="IsFailsafe" type="bool" value="true"/>
       <property name="Count" type="int" value="5"/>
       <property name="Client0_Command" type="array">
         <value type="string" value="xfwm4"/>
