@@ -20,7 +20,10 @@ jobs:
       - name: Auto-assign PR to author
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          # GITHUB_TOKEN is sufficient for adding assignees on this repo.
+          # If you need cross-repo or org-level access, replace this with a
+          # custom token secret that has only the minimal required scopes.
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             await github.rest.issues.addAssignees({
               owner: context.repo.owner,
