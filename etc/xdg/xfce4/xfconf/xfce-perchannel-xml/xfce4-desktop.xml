@@ -6,22 +6,22 @@
     <property name="screen0" type="empty">
       <property name="monitorLVDS-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/lake-and-mountains.jpg"/>
+          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/mountain-sunset.jpg"/>
         </property>
       </property>
       <property name="monitoreDP-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/lake-and-mountains.jpg"/>
+          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/mountain-sunset.jpg"/>
           </property>
           </property>
       <property name="monitorDisplayPort-0" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/lake-and-mountains.jpg"/>
+          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/mountain-sunset.jpg"/>
         </property>
         </property>
       <property name="screen0" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/lake-and-mountains.jpg"/>
+          <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/mountain-sunset.jpg"/>
       </property>
     </property>
   </property>
@@ -29,5 +29,5 @@
     <property name="window-width" type="empty"/>
     <property name="window-height" type="empty"/>
   </property>
-  <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/lake-and-mountains.jpg"/>
+  <property name="last-image" type="string" value="/usr/local/share/backgrounds/ghostbsd/mountain-sunset.jpg"/>
 </channel>
